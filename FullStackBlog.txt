@@ -1,0 +1,179 @@
+Full Stack Blog App
+1
+Raghav Aggarwal 
+Aditi Aggarwal 
+
+
+1
+
+Abstract
+Blog, in full Web log or Weblog, online journal where an individual, group, or corporation presents a record of activities, thoughts, or beliefs. Some blogs operate mainly as news filters, collecting various online sources and adding short comments and Internet links.
+Blog is a communication tool that plays a key role in a web application. Use of blogs has resulted in a paradigm shift in the way a web application interacts with the customer.
+A blog app can make your posts more easily accessible. Instead of loading your blog URL, users can simply find your latest content on the app. An app will also make it easier for users to share your content with others.
+During the development of web application, there is a need to elicit and specify the requirements for the blogging functionality. 
+In this we present a some requirements for the blog, from the perspective of integrating the blog in a web application.
+2
+
+Scope of the Project
+ Functional Requirements 
+Blogs should be categorized.
+Post their own blogs.
+Supports publishing in different Languages.
+Authentication security for editing or deleting blogs.
+
+3
+
+Scope of the Project
+ Non-Functional Requirements 
+Performance
+Speed
+Scalability
+Security
+Block abusive content
+Reusability
+Flexibility
+
+4
+
+Scope of the Project
+5
+ List of Modules 
+Authentication module
+Reading Module
+Writing Module
+Filter Module
+Context (React) Module
+Database connection Module
+NavBar & Footer Modules
+
+
+Tools and Technologies Used
+ Front-End 
+HTML
+CSS
+JavaSctipt
+React
+NodeJs
+
+ Back-End 
+NodeJs
+MySQL
+XAMPP
+
+6
+
+External Packages Used
+server-side (npm) -
+"bcryptjs": "^2.4.3",
+"cookie-parser": "^1.4.6",
+"express": "^4.18.2",
+"jsonwebtoken": "^8.5.1",
+"multer": "^1.4.5-lts.1",
+"mysql": "^2.18.1",
+"mysql2": "^2.3.3",
+"nodemon": "^2.0.20"
+
+
+7
+client-side (react) -
+"axios": "^1.1.3",
+"dompurify": "^2.4.0",
+"moment": "^2.29.4",
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-quill": "^2.0.0",
+"react-router-dom": "^6.4.3",
+"react-scripts": "5.0.1",
+"sass": "^1.56.0"
+
+7
+
+Design Of the Project
+Goal :  
+
+The purpose of a blog is to create a more engaging website for your brand. Along with using your website to teach users about your products and services, you can also include a blog section to teach consumers about topics that are relevant to your field. We used ReactJs to design frontend because of its fast user interface.
+
+8
+8
+
+WHY did we choose this project?
+The project is a real world case and would be helpful for further projects to be taken up from customers who wish to use it for their marketing purpose and increase the reach of their brand.
+
+The database connected to it would help the servicemen to better analyze their customer’s behaviour and enhance and improve their shop on the basis of that conclusion.
+9
+9
+
+IMPLEMENTATION & RESULTS
+REGISTRATION PAGE :
+10
+10
+
+LOGIN PAGE:
+11
+11
+
+HOME PAGE:
+12
+12
+
+13
+13
+
+Browsing via categories:
+14
+14
+
+WRITE PAGE :
+15
+15
+
+READ POST :
+16
+16
+
+UPDATE :
+17
+17
+
+PHP MY ADMIN :
+18
+18
+
+POSTS TABLE:
+19
+19
+
+USERS TABLE :
+20
+20
+
+App Directory
+ api - contains all files that work at
+the backend i.e. CRUD operations
+on individual blog posts.
+
+client - contains all files that make 
+up the front-end of the project.
+21
+21
+
+List of Features
+Fetch all posts and user info from database.
+Show preview of each post on home page.
+login or register to read, create, update or delete posts.
+Show similar posts in a sidebar when reading a post.
+categorize posts when publishing or editing posts.
+Author security on all posts i.e. a user cannot edit or delete any post that they are not an author of.
+22
+22
+
+References:
+https://reactjs.org/docs/getting-started.html
+https://www.npmjs.com/
+https://reactrouter.com/en/main/start/tutorial
+https://youtube.com
+https://www.apachefriends.org/
+https://www.w3schools.com/nodejs/nodejs_mysql.asp
+
+23
+23
